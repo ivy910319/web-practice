@@ -8,7 +8,7 @@ function onYouTubeIframeAPIReady(){
         width:"640",
         videoId:playList[currentPlay],
         playerVars:{
-            autoplay:0,
+            autoplay:1,
             controls:0,
             start:playTime[currentPlay][0],
             end:playTime[currentPlay][1],
